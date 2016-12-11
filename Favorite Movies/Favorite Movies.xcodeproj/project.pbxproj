@@ -16,7 +16,7 @@
 		41CD13CE1DFCA92400366491 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13CD1DFCA92400366491 /* Movie.swift */; };
 		41CD13D01DFCAFFB00366491 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13CF1DFCAFFB00366491 /* HTTPHandler.swift */; };
 		41CD13D21DFCB13D00366491 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13D11DFCB13D00366491 /* JSONParser.swift */; };
-		41CD13D41DFCB27E00366491 /* MovieFileProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13D31DFCB27E00366491 /* MovieFileProcessor.swift */; };
+		41CD13D41DFCB27E00366491 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13D31DFCB27E00366491 /* MovieDataProcessor.swift */; };
 		41CD13D61DFCB72000366491 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13D51DFCB72000366491 /* CustomTableViewCell.swift */; };
 		41CD13D81DFD21B900366491 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD13D71DFD21B900366491 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 		41CD13CD1DFCA92400366491 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		41CD13CF1DFCAFFB00366491 /* HTTPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
 		41CD13D11DFCB13D00366491 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
-		41CD13D31DFCB27E00366491 /* MovieFileProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieFileProcessor.swift; sourceTree = "<group>"; };
+		41CD13D31DFCB27E00366491 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 		41CD13D51DFCB72000366491 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		41CD13D71DFD21B900366491 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +78,7 @@
 				41CD13CD1DFCA92400366491 /* Movie.swift */,
 				41CD13CF1DFCAFFB00366491 /* HTTPHandler.swift */,
 				41CD13D11DFCB13D00366491 /* JSONParser.swift */,
-				41CD13D31DFCB27E00366491 /* MovieFileProcessor.swift */,
+				41CD13D31DFCB27E00366491 /* MovieDataProcessor.swift */,
 				41CD13D51DFCB72000366491 /* CustomTableViewCell.swift */,
 				41CD13D71DFD21B900366491 /* DetailViewController.swift */,
 			);
@@ -163,7 +163,7 @@
 				41CD13D61DFCB72000366491 /* CustomTableViewCell.swift in Sources */,
 				41CD13D21DFCB13D00366491 /* JSONParser.swift in Sources */,
 				41C12CF41DFA48C7001E4123 /* ViewController.swift in Sources */,
-				41CD13D41DFCB27E00366491 /* MovieFileProcessor.swift in Sources */,
+				41CD13D41DFCB27E00366491 /* MovieDataProcessor.swift in Sources */,
 				41C12CF21DFA48C7001E4123 /* AppDelegate.swift in Sources */,
 				41CD13CE1DFCA92400366491 /* Movie.swift in Sources */,
 			);

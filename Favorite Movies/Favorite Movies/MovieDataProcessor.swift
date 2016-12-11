@@ -8,22 +8,7 @@
 
 import Foundation
 
-class MovieFileProcessor {
-    static func read(fileName: String) -> [Movie] {
-        // The file must be JSON
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "json")
-        {
-            if let data = NSData(contentsOf: url)
-            {
-                let object = JSONParser.parse(data: data as Data)
-                if let dictionary = object {
-                    return mapJsonToMovies(object: dictionary, moviesKey: "movies")
-                }
-            }
-        }
-        
-        return []
-    }
+class MovieDataProcessor {
     
     static func mapJsonToMovies(object: [String: AnyObject], moviesKey: String) -> [Movie] {
         var mappedMovies: [Movie] = []

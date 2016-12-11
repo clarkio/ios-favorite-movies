@@ -97,7 +97,7 @@ class FindViewController: UIViewController, UITableViewDelegate, UITableViewData
         if let data = data {
             let object = JSONParser.parse(data: data)
             if let object = object {
-                self.searchResults = MovieFileProcessor.mapJsonToMovies(object: object, moviesKey: "Search")
+                self.searchResults = MovieDataProcessor.mapJsonToMovies(object: object, moviesKey: "Search")
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
