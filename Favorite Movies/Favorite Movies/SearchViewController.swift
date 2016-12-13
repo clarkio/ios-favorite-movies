@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FindViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     weak var delegate: ViewController!
     var searchResults: [Movie] = []

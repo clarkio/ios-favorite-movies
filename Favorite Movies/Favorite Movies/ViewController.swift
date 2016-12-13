@@ -76,8 +76,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         
-        if segue.identifier == "findMoviesSegue" {
-            let controller = segue.destination as! FindViewController
+        if segue.identifier == "searchMoviesSegue" {
+            let controller = segue.destination as! SearchViewController
             controller.delegate = self
         }
         
