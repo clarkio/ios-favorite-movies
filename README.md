@@ -11,6 +11,7 @@ A sample application to find and save a list of your favorite movies
     git clone https://github.com/clarkio/ios-favorite-movies.git
     cd ios-favorite-movies
     ```
+
 2. Open the project in Xcode
     ```bash
     open Favorite\ Movies/Favorite\ Movies.xcodeproj/
