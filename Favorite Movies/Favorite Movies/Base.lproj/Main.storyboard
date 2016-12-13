@@ -28,7 +28,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find Movies"/>
                                 <connections>
-                                    <segue destination="OCs-Cr-TLP" kind="show" identifier="findMoviesSegue" id="sJh-Ar-wHF"/>
+                                    <segue destination="OCs-Cr-TLP" kind="show" identifier="searchMoviesSegue" id="sJh-Ar-wHF"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="81" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="av1-m9-YMd">
@@ -40,7 +40,7 @@
                                         <rect key="frame" x="0.0" y="28" width="343" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DgJ-Fk-hn3" id="kDh-c2-RiK">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="103"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="103.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZSA-Xd-FaH" userLabel="Movie Image">
@@ -150,7 +150,7 @@
         <!--Search View Controller-->
         <scene sceneID="L2O-Pu-tzJ">
             <objects>
-                <viewController storyboardIdentifier="findMoviesViewController" id="OCs-Cr-TLP" userLabel="Search View Controller" customClass="FindViewController" customModule="Favorite_Movies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="findMoviesViewController" id="OCs-Cr-TLP" userLabel="Search View Controller" customClass="SearchViewController" customModule="Favorite_Movies" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MUf-MG-tu2"/>
                         <viewControllerLayoutGuide type="bottom" id="7xb-Dp-Uua"/>
@@ -165,10 +165,10 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="customcell" rowHeight="104" id="kJh-JJ-xLW" userLabel="Custom Cell" customClass="CustomTableViewCell" customModule="Favorite_Movies" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="56" width="343" height="104"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="343" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kJh-JJ-xLW" id="Htb-0y-pip">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="103"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="103.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xut-0Q-7qY" userLabel="Movie Image">
