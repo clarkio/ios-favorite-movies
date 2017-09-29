@@ -31,7 +31,7 @@ class DetailViewController: UIViewController {
     
     func getMovieDetails(movie: Movie) {
         //http://www.omdbapi.com/?i=tt0215465&plot=short&r=json
-        let url = "https://www.omdbapi.com/?i=\(movie.id)&plot=short&r=json"
+        let url = "https://www.omdbapi.com/?apikey=PlzBanMe&i=\(movie.id)&plot=short&r=json"
         HTTPHandler.getJson(urlString: url, completionHandler: movieDetailsCompletion)
     }
     
