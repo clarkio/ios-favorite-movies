@@ -1,5 +1,5 @@
 # ios-favorite-movies
-A sample application to find and save a list of your favorite movies
+A sample application to find and save a list of your favorite movies. Created for use in the Pluralsight course [iOS and Swift from Scratch](https://app.pluralsight.com/library/courses/play-by-play-ios-swift-from-scratch/table-of-contents)
 
 ## Prerequisites
 1. MacOS (10.11.x or above)
