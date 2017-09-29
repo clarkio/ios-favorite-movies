@@ -1,6 +1,8 @@
 # ios-favorite-movies
 A sample application to find and save a list of your favorite movies. Created for use in the Pluralsight course [iOS and Swift from Scratch](https://app.pluralsight.com/library/courses/play-by-play-ios-swift-from-scratch/table-of-contents)
 
+***Update 09/29/2017***: API requests to [The Open Movie Database](https://omdbapi.com) require an API key or they will be denied with a 401 response. In order to help keep this demo application running it is now leveraging the same API key as found in the [examples section of the site](https://omdbapi.com/#examples). If you abuse this demo key it will be banned so please use it only for demo/testing purposes.
+
 ## Prerequisites
 1. MacOS (10.11.x or above)
 2. Xcode 8.1
